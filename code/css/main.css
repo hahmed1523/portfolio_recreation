@@ -1,0 +1,245 @@
+html{
+    scroll-behavior: smooth;
+    
+
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+  }
+
+body{
+    margin: 0;
+    font-family: 'open sans',arial,sans-serif;
+    font-size: 20px;
+    
+}
+
+body p{
+    color:rgb(109, 108, 108);
+}
+
+
+#nav {
+    background-color:#538bff;
+    position: fixed;
+    top: 0;
+    width: 100%;   
+}
+
+#nav ul{
+    list-style: none;
+    text-align:center;
+    margin: 0px;
+    height: 50px;
+}
+
+#nav li{
+    display: inline-block;
+    text-align: center;
+    width: 110px;
+    height: 20px;
+    font-size: 15px;
+    font-weight:bold;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top:10px;  
+}
+
+#nav a{
+    color: white;
+}
+
+#nav li:hover{
+    background-color:rgb(54, 54, 54);
+}
+
+a {
+    text-decoration:none;
+}
+
+#main {
+    width: 100%;
+    line-height: 2;
+    width: 100%;
+    color:rgb(109, 108, 108);
+    border-bottom: 1px solid rgb(68, 67, 67);   
+}
+
+#main h1{
+    color: black;
+    font-weight:lighter;
+    font-size: 50px;
+}
+
+#main img {
+    float: left;
+    border-radius: 200px;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+#main h1, #main img{
+    margin-top: 150px;
+}
+
+#main p{
+    margin-right:100px;
+}
+
+.button{
+    background-color: #ff6c45;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight:bold;
+    padding: 20px;
+    display:inline-block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 250px;
+    text-align:center;
+
+    
+}
+
+.button:hover{
+    background-color:lightblue;
+}
+
+
+#portfolio {
+    clear:both;
+    margin-top: -25px;
+    /*border: 1px solid black;*/
+    background-color:#f4f4f4;
+    text-align:center;
+    border-bottom:1px solid rgb(68, 67, 67);
+    
+    
+}
+
+#portfolio h2{
+    padding-top: 100px;
+}
+
+#portfolio-gallery, #learning-gallery{
+    width: 80%;
+    margin: auto;
+    height: auto;
+    margin-top: 50px;
+    
+}
+
+.portfolio-section {
+    width: 300px;
+    float:left;
+    margin: 10px;
+    background-color:white;
+    font-size: 15px;
+    border: 1px solid lightgrey;
+}
+
+.portfolio-section p {
+    margin: 30px;
+}
+
+.portfolio-section img {
+    width: 100%;
+    height: auto;
+}
+
+#portfolio .button{
+
+    margin-right: 500px;
+}
+
+#learning-tools{
+    text-align: center;
+    background-color:#f4f4f4;
+    margin-top: -25px;
+    
+}
+
+#learning-tools h2{
+    padding-top:100px;
+}
+
+
+.learning-section{
+    background-color:white;
+    border: 1px solid lightgrey;
+    width: 250px;
+    padding: 30px;
+    float:left;
+    margin: 10px;
+}
+
+.learning-section i{
+    color:#8ab9ea;
+    font-size: 100px;
+}
+
+#contact{
+    margin-top: -25px;
+    margin-bottom: -25px;
+    background-color:#538bff;
+    padding-top: 50px;
+    text-align:center;
+    color: white;
+}
+
+#contact p{
+    color:black;
+    padding: 15px;
+}
+
+#contact a{
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#contact .button{
+    background-color:rgb(70, 71, 70);
+    width: 100px;
+    margin: 10px;
+
+}
+
+#contact .button:hover{
+    color:black;
+    background-color: white;
+    position: relative;
+    bottom: 10px;
+
+}
+
+#contact-2{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 25px;
+}
+
+#contact-3 p{
+    color:rgb(80, 80, 79);
+    font-size: 10px;
+    padding: 40px;
+}
+
+#contact-3 a{
+    color: rgb(80, 80, 79);
+    text-decoration: underline;
+    font-size: 10px;
+}
+
+#contact-3 a:hover{
+    color: rgb(25, 94, 158);
+    text-decoration: underline;
+}
